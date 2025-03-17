@@ -9,7 +9,7 @@ jobs:
           21  # Minimum supported by Minecraft
         ]
         os: [ubuntu-20.04]
-        mod_loader: [fabric, forge, neoforge]  # Add loaders to matrix
+        mod_loader: [neoforge]  # Add loaders to matrix
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout repository
