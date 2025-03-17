@@ -30,14 +30,14 @@ jobs:
       - name: Build Common Module
         run: ./gradlew :common:build
         env:
-          GITHUB_USERNAME: ${{ secrets.GITHUB_ACTOR }}
+          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Build for specific mod loader based on matrix
       - name: Build ${{ matrix.mod_loader }} Loader
         run: ./gradlew :${{ matrix.mod_loader }}:build
         env:
-          GITHUB_USERNAME: ${{ secrets.GITHUB_ACTOR }}
+          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Capture Build Artifacts
