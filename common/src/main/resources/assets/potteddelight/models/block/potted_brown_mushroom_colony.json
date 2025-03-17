@@ -1,0 +1,8 @@
+{
+  "render_type": "cutout",
+  "ambientocclusion": false,
+  "parent": "potteddelight:block/template_potted_cross_scaled_75",
+  "textures": {
+    "plant": "farmersdelight:block/brown_mushroom_colony_stage3"
+  }
+}
