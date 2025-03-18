@@ -1,7 +1,7 @@
 package net.anweisen.potteddelight;
 
 import net.anweisen.notenoughpots.platform.NeoForgePlatformBridge;
-import net.anweisen.notenoughpots.platform.api.IPlatformBridge;
+import net.anweisen.notenoughpots.platform.IPlatformBridge;
 
 /**
  * @author anweisen | https://github.com/anweisen
