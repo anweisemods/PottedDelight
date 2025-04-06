@@ -18,6 +18,9 @@
     "main": [
       "net.anweisen.potteddelight.PottedDelightFabricMod"
     ],
+    "client": [
+      "net.anweisen.potteddelight.client.PottedDelightFabricClient"
+    ]
   },
   "mixins": [
     "${mod_id}.mixins.json",
