@@ -37,6 +37,14 @@ pluginManagement {
 				includeGroupAndSubgroups('net.minecraftforge')
 			}
 		}
+		exclusiveContent {
+			forRepository {
+				maven { url uri('https://jitpack.io') }
+			}
+			filter {
+				includeGroupAndSubgroups("com.github")
+			}
+		}
 
 		repositories {
 			maven {

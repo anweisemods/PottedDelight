@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "${description}",
+  "authors": [
+    "${mod_author}"
+  ],
+  "contact": {
+    "sources": "https://github.com/anweisemods/PottedDelight",
+    "issues": "https://github.com/anweisemods/PottedDelight/issues"
+  },
+  "license": "${license}",
+  "icon": "${mod_id}.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.anweisen.potteddelight.PottedDelightFabricMod"
+    ],
+  },
+  "mixins": [
+    "${mod_id}.mixins.json",
+    "${mod_id}.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version_range_fabric}",
+    "java": ">=${java_version}"
+  },
+  "suggests": {
+    "notenoughpots": ">=${notenoughpots_version}",
+    "farmersdelight": ">=${farmersdelight_fabric_version}"
+  }
+}
