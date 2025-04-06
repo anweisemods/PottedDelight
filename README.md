@@ -10,7 +10,7 @@
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/potted-delight?color=00AF5C&label=downloads&logo=modrinth)](https://modrinth.com/mod/potted-delight)
 [![Modrinth Versions](https://img.shields.io/modrinth/v/potted-delight?color=00AF5C&label=versions&logo=modrinth)](https://modrinth.com/mod/potted-delight)
 
-Adds compatability between [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight "Farmer's Delight") and [NotEnoughPots](https://www.curseforge.com/minecraft/mc-mods/not-enough-pots "NotEnoughPots")</p> 
+Adds compatability between [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight "Farmer's Delight") / [Farmer's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated "Farmer's Delight Refabricated") and [NotEnoughPots](https://www.curseforge.com/minecraft/mc-mods/not-enough-pots "NotEnoughPots")</p> 
 
 </div>
 
@@ -19,7 +19,7 @@ _Ever wondered why you can't place some plants in flower pots?_
 _Well, now you can!_
 
 *  This Mod adds **14** Flower Pot variants of their Farmer's Delight plants
-*  This Mod expands upon [NotEnoughPots](https://www.curseforge.com/minecraft/mc-mods/not-enough-pots "NotEnoughPots") and adds the variants for [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight "Farmer's Delight") 
+*  This Mod expands upon [NotEnoughPots](https://www.curseforge.com/minecraft/mc-mods/not-enough-pots "NotEnoughPots") and adds the variants for [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight "Farmer's Delight") / [Farmer's Delight Refabricated](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated "Farmer's Delight Refabricated") 
 
 <br/>
 
