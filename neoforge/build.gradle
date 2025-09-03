@@ -18,10 +18,11 @@ repositories {
 	maven { url "https://maven.ryanliptak.com/" }
 	maven { url = "https://libraries.minecraft.net/" }
 	maven { url = "https://maven.minecraftforge.net" }
+	maven { url = 'https://jitpack.io' }
 }
 
 dependencies {
-	implementation("net.anweisen.notenoughpots:neoforge:1.3")
+	implementation("net.anweisen.notenoughpots:neoforge:${notenoughpots_version}")
 	implementation("com.github.vectorwing:FarmersDelight:1.21-SNAPSHOT")
 
 	neoForgeRuntimeDependencies('com.github.vectorwing:FarmersDelight:1.21-SNAPSHOT')

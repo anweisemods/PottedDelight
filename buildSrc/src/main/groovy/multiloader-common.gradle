@@ -38,30 +38,27 @@ repositories {
 				})
 		filter { includeGroup('org.parchmentmc.data') }
 	}
-	exclusiveContent {
-		forRepositories(
-			maven {
-				name = 'GlareMasters' // for com.mojang:jtracy
-				url = "https://repo.glaremasters.me/repository/public/"
-			}
-		)
-		filter { includeGroup('com.mojang') }
-	}
+//	exclusiveContent {
+//		forRepositories(
+//			maven {
+//				name = 'GlareMasters' // for com.mojang:jtracy
+//				url = "https://repo.glaremasters.me/repository/public/"
+//			}
+//		)
+//		filter { includeGroup('com.mojang') }
+//	}
 
-	maven {
-		url = 'https://jitpack.io'
-	}
 
-	repositories {
-		maven {
-			name = "GitHubPackages"
-			url = uri("https://maven.pkg.github.com/anweisemods/NotEnoughPots")
-			credentials {
-				username = System.getenv("GITHUB_ACTOR")
-				password = System.getenv("GITHUB_TOKEN")
-			}
-		}
-	}
+//	repositories {
+//		maven {
+//			name = "GitHubPackages"
+//			url = uri("https://maven.pkg.github.com/anweisemods/NotEnoughPots")
+//			credentials {
+//				username = System.getenv("GITHUB_ACTOR")
+//				password = System.getenv("GITHUB_TOKEN")
+//			}
+//		}
+//	}
 }
 
 // Declare capabilities on the outgoing configurations.
@@ -118,6 +115,7 @@ processResources {
 	                   "forge_loader_version_range"     : forge_loader_version_range,
 	                   "notenoughpots_version"          : notenoughpots_version,
 	                   "farmersdelight_version"         : farmersdelight_version,
+	                   "farmersdelight_fabric_version"  : farmersdelight_fabric_version,
 	                   'credits'                        : credits,
 	                   'java_version'                   : java_version]
 
