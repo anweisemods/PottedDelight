@@ -14,7 +14,7 @@ public class PottedDelightNeoForgeMod {
   public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(Registries.BLOCK, PottedDelightCommons.MOD_ID);
 
   public PottedDelightNeoForgeMod(IEventBus eventBus) {
-    var bridge = new NeoForgePlatformBridge<>(eventBus, BLOCKS, PottedDelightBlockType.class);
+    var bridge = new NeoForgePlatformBridge<>(PottedDelightCommons.MOD_ID, eventBus, BLOCKS, PottedDelightBlockType.class);
     PottedDelightNeoForgeHelper.init(bridge);
   }
 }

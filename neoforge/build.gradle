@@ -15,6 +15,10 @@ repositories {
 		name = "BlameJared"
 		url = "https://maven.blamejared.com"
 	}
+    maven {
+        // EMI
+        url = "https://maven.terraformersmc.com/"
+    }
 	maven { url "https://maven.ryanliptak.com/" }
 	maven { url = "https://libraries.minecraft.net/" }
 	maven { url = "https://maven.minecraftforge.net" }
@@ -22,7 +26,7 @@ repositories {
 }
 
 dependencies {
-	implementation("net.anweisen.notenoughpots:neoforge:${notenoughpots_version}")
+	implementation("net.anweisen.notenoughpots:neoforge:${notenoughpots_lib_version}")
 	implementation("com.github.vectorwing:FarmersDelight:1.21-SNAPSHOT")
 
 	neoForgeRuntimeDependencies('com.github.vectorwing:FarmersDelight:1.21-SNAPSHOT')

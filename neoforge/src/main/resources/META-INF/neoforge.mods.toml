@@ -12,10 +12,6 @@ logoFile = "${mod_id}.png" #optional
 credits = "${credits}" #optional
 authors = "${mod_author}" #optional
 description = '''${description}''' #mandatory Supports multiline text
-[[mixins]]
-config = "${mod_id}.mixins.json"
-[[mixins]]
-config = "${mod_id}.neoforge.mixins.json"
 [[dependencies."${mod_id}"]] #optional
 modId = "neoforge" #mandatory
 type = "required" #mandatory Can be one of "required", "optional", "incompatible" or "discouraged"
@@ -37,7 +33,7 @@ side="BOTH"
 [[dependencies."${mod_id}"]]
 modId="notenoughpots"
 mandatory=true
-versionRange="[${notenoughpots_version},)"
+versionRange="[${notenoughpots_mod_version},)"
 ordering="AFTER"
 side="BOTH"
 

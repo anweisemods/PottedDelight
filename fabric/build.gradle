@@ -12,7 +12,7 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
 
-	modImplementation("net.anweisen.notenoughpots:fabric:${notenoughpots_version}")
+	modImplementation("net.anweisen.notenoughpots:fabric:${notenoughpots_lib_version}")
 
 	modImplementation("vectorwing:FarmersDelight:1.21.1-${farmersdelight_fabric_version}+refabricated") {
 		exclude(group: "net.fabricmc")
@@ -53,9 +53,6 @@ loom {
 	def aw = project(':common').file("src/main/resources/${mod_id}.accesswidener")
 	if (aw.exists()) {
 		accessWidenerPath.set(aw)
-	}
-	mixin {
-		defaultRefmapName.set("${mod_id}.refmap.json")
 	}
 	runs {
 		client {
