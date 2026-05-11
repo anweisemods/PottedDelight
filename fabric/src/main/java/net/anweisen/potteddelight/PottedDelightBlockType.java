@@ -25,6 +25,8 @@ public enum PottedDelightBlockType implements IPottedBlockType {
   POTTED_RED_MUSHROOM_COLONY(ModBlocks.RED_MUSHROOM_COLONY),
   POTTED_BROWN_MUSHROOM_COLONY(ModBlocks.BROWN_MUSHROOM_COLONY),
   POTTED_SANDY_SHRUB(ModBlocks.SANDY_SHRUB),
+  POTTED_RICE_BALE(ModBlocks.RICE_BALE),
+  POTTED_STRAW_BALE(ModBlocks.STRAW_BALE),
   ;
 
   private final Supplier<Block> flower;
