@@ -1,0 +1,23 @@
+{
+  "name": "PottedDelight",
+  "author": "anweisen",
+  "footer": "github.com/anweisemods/PottedDelight",
+  "downloads": {
+    "modrinth": "https://modrinth.com/mod/potted-delight",
+    "curseforge": "https://www.curseforge.com/minecraft/mc-mods/potted-delight"
+  },
+  "resources": [
+    "common/src/main/resources"
+  ],
+  "item_namespace": "farmersdelight",
+  "item_aliases": {
+    "cabbages": "cabbage_seeds",
+    "onions": "onion",
+    "rice_panicles": "rice",
+    "tomatoes": "tomato_seeds"
+  },
+  "sources": [
+    "**/*FarmersDelight-${farmersdelight_fabric_full_version}.jar",
+    "**/*notenoughpots-fabric-${notenoughpots_lib_version}.jar"
+  ]
+}
